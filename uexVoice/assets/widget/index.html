@@ -1,0 +1,108 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+
+    <script type="text/javascript">
+
+
+
+    window.uexOnload = function(type){
+
+        if(type == 0){  
+
+            //评测成功之后的回调
+           uexVoice.EvaluatorListeneronResult=function(data){
+                alert(data);
+              };
+
+               //评测失败之后的回调
+          uexVoice.EvaluatorListeneronError=function(data){
+                alert("异常信息是:"+data);
+
+             };
+        }
+    };
+     <!--语音SDK初始化-->
+      function speech_init() {
+
+        uexVoice.speech_init( "/storage/emulated/0/Android/data/org.zywx.wbpalmstar.widgetone.uexVoice/files/aiengine.provision","584566");
+
+    }
+
+    <!--1 read_word（词语）、-->
+    <!--2 read_sentence（句子）、3 read_chapter（篇章）-->
+
+
+
+     function read_word() {
+        var params = {
+            word : "apple",
+             <!--word : "[word]\n2b",-->
+            type : 1,
+            timeout:"2000.0154",
+            mode :0,
+            fileName :"test"
+        };
+        uexVoice.speech_evaluation(params);
+
+    }
+
+     function read_sentence() {
+        var params = {
+            <!--word : "This is a dog.",-->
+            word : "let's begin our class. ",
+            type : 2,
+            timeout:"5000",
+             mode:0,
+            fileName:"test"
+        };
+        uexVoice.speech_evaluation(params);
+
+    }
+
+     function read_chapter() {
+        var params = {
+            word : "Hello! My name is Pit. P-I-T, Pit. Today I'm fine. Look! This is my friend, Mike. He has got a cat and a dog. They are his friends . He likes them. " ,
+            <!--word:"Listen point and repeat. A. a. B. b. C. c. D. d. E. e. ",-->
+            type : 3,
+            timeout:"15000",
+            mode:0,
+            fileName:"test"
+        };
+        uexVoice.speech_evaluation(params);
+
+    }
+</script>
+</head>
+
+<body>
+    <div class="tit">uexVoice对象</div>
+        <div class="conbor">
+            <div class="consj">
+                <span>评测初始化</span>
+                <input class="btn" type="button" value="语音SDK初始化"
+                       onclick="speech_init()"><br>
+                <span>1.英文单词评测</span>
+                <input class="btn" type="button" value="read_word"
+                       onclick="read_word()">
+                <span>apple</span><br>
+                <span>2.英文句子评测</span>
+
+                <input class="btn" type="button" value="read_sentence"
+                       onclick="read_sentence()">
+                <span>This is a dog.</span><br>
+                <span>3.英文篇章评测</span>
+                <input class="btn" type="button" value="read_chapter"
+                       onclick="read_chapter()">
+                <span>Hello! My name is Pit. P-I-T, Pit. Today I'm fine. Look! This is my friend, Mike. He has got a cat and a dog. They are his friends . He likes them. </span><br>
+
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>

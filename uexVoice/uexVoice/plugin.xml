@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<uexplugins>
+    <plugin
+        className="com.test.EUExVoice" uexName="uexVoice" >
+        <method name ="speech_init"/>
+        <method name = "speech_evaluation" />
+        <method name = "speech_stop"/>
+    </plugin>
+</uexplugins>

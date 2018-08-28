@@ -1,0 +1,18 @@
+<component name="libraryTable">
+  <library name="Gradle: engine-4.0.0-systemRelease:@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/engine-4.0.0-systemRelease.aar/7f2f0a9b9c4aab6dfec4afbbf39ae6af/jars/libs/gson-2.2.4.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/engine-4.0.0-systemRelease.aar/7f2f0a9b9c4aab6dfec4afbbf39ae6af/jars/libs/android-support-v4.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/engine-4.0.0-systemRelease.aar/7f2f0a9b9c4aab6dfec4afbbf39ae6af/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/engine-4.0.0-systemRelease.aar/7f2f0a9b9c4aab6dfec4afbbf39ae6af/jars/libs/commons-io-2.4.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/engine-4.0.0-systemRelease.aar/7f2f0a9b9c4aab6dfec4afbbf39ae6af/jars/libs/wmqtt.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/engine-4.0.0-systemRelease.aar/7f2f0a9b9c4aab6dfec4afbbf39ae6af/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/engine-4.0.0-systemRelease.aar/7f2f0a9b9c4aab6dfec4afbbf39ae6af/jars/libs/libacedes-v1.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/engine-4.0.0-systemRelease.aar/7f2f0a9b9c4aab6dfec4afbbf39ae6af/jars/libs/httpmime-4.1.3.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/engine-4.0.0-systemRelease.aar/7f2f0a9b9c4aab6dfec4afbbf39ae6af/jars/libs/dynamicLoadLib.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/engine-4.0.0-systemRelease.aar/7f2f0a9b9c4aab6dfec4afbbf39ae6af/jars/libs/aceimageloader.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

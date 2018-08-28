@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<uexplugins>
+    <plugin
+        uexName="uexVoice" version="4.0.9" build="9">
+        <info>9:将音频格式wav改为mp3</info>
+        <info>8:返回评测信息特殊字符处理</info>
+        <info>7:关闭段落里面实时句子返回得分</info>
+        <info>6:修改音频的文件名</info>
+        <info>5:String类型小数点分割异常</info>
+        <info>4:Long类型转换异常处理</info>
+        <info>3:uexVoice跟换评测服务器地址为"ws://cloud.chivox.com"</info>
+        <info>2:uexVoice插件弛声代码优化</info>
+        <info>1:uexVoice插件弛声</info>
+    </plugin>
+
+</uexplugins>
