@@ -230,6 +230,7 @@ public class EUExVoice extends EUExBase {
                     String result=jsonResult.toString().replaceAll("'","&apos;");
                     callBackPluginJs(CALLBACK_EVALUATOR_LISTENER_ONRESULT,result );
                     if(lastRecordFile!=null && lastRecordFile.getRecordFile()!=null) {
+
                         Log.i(TAG, "返回的本地音频地址: " + lastRecordFile.getRecordFile().getAbsolutePath());
                         renameFile(lastRecordFile.getRecordFile().getAbsolutePath(), recordFile);
                     }
