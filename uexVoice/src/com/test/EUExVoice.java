@@ -229,6 +229,7 @@ public class EUExVoice extends EUExBase {
                     Log.i(TAG, "返回的评分信息: "+jsonResult.toString());
                     String result=jsonResult.toString().replaceAll("'","&apos;");
                     callBackPluginJs(CALLBACK_EVALUATOR_LISTENER_ONRESULT,result );
+
                     if(lastRecordFile!=null && lastRecordFile.getRecordFile()!=null) {
                         Log.i(TAG, "返回的本地音频地址: " + lastRecordFile.getRecordFile().getAbsolutePath());
                         renameFile(lastRecordFile.getRecordFile().getAbsolutePath(), recordFile);
